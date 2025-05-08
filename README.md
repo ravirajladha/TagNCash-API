@@ -15,7 +15,6 @@ Below are snapshots of TagNCash-Web’s key features:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="images/mobile.png" alt="Store Browsing" width="200" />
-  <img src="images/mobile1.png" alt="QR Code Scanning" width="200" />
   <img src="images/mobile2.png" alt="Wallet" width="200" />
   <img src="images/mobile3.png" alt="Referral Sharing" width="200" />
   <img src="images/mobile4.png" alt="Transaction History" width="200" />
