@@ -1,21 +1,50 @@
 # TagNCash-Web - Referral Rewards Platform
 
 ## Overview
-TagNCash-Web is the frontend-focused web version of a Laravel-based referral rewards platform, enabling users to share business recommendations (e.g., stores, restaurants) and earn cashback or vouchers when referred friends transact. Built with Laravel and Livewire for dynamic interactions, it integrates Sendgrid for email notifications, Razorpay for payments, and QR code-based referrals, prioritizing responsive UI/UX. Part of the TagNCash ecosystem, this project showcases my skills in crafting user-centric web applications with secure API integrations, complementing my portfolio projects like SecretHairCare and Samruddhi.
+TagNCash-Web is the frontend-focused web version of a Laravel-based referral rewards platform, enabling users to share business recommendations (e.g., stores, restaurants) and earn cashback or vouchers when referred friends transact. Built with Laravel for dynamic interactions, it integrates Sendgrid for email notifications, Razorpay for payments, and QR code-based referrals, prioritizing responsive UI/UX. Part of the TagNCash ecosystem, this project showcases my skills in crafting user-centric web applications with secure API integrations, complementing my portfolio projects like SecretHairCare and Samruddhi.
 
+## Screenshots
+Below are snapshots of TagNCash-Web’s key features:
+
+![Referral QR Code](images/web.png)
+*Share QR codes to refer friends and earn rewards.*
+
+![User Dashboard](images/admin.png)
+*Track referrals, rewards, and transaction history.*
+
+![Mobile Application Screenshots](images/mobile.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile1.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile2.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile3.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile4.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile5.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
+
+![Mobile Application Screenshots](images/mobile6.png)
+*Browse partnered businesses for shopping and dining using mobile app.*
 
 ## Features
 - **Referral System**: Share QR codes via web interface to refer friends, earning rewards.
 - **Cashback & Wallet**: View and manage cash or voucher rewards.
 - **Email Notifications**: Send referral invites and transaction updates via Sendgrid.
 - **Network of Stores**: Browse partnered businesses for shopping and dining.
-- **Responsive UI**: Dynamic, mobile-friendly interface with Livewire.
+- **Responsive UI**: Dynamic, mobile-friendly interface with Bootstrap.
 - **User Dashboard**: Track referrals and rewards.
 - **Transaction Security**: Validates QR code transactions.
 
 ## Tech Stack
 - **Backend**: Laravel
-- **Frontend**: Blade templates, Livewire, HTML, CSS, JavaScript
+- **Frontend**: Blade templates, Bootstrap, HTML, CSS, JavaScript
 - **Database**: MySQL
 - **Integrations**: Sendgrid (email), Razorpay (payments), QR code generation
 - **Server**: Apache/Nginx
@@ -125,7 +154,7 @@ Videos cover:
 - Manually test UI interactions, email notifications, referrals, and reward tracking.
 
 ## Contributions
-- **Frontend**: Developed dynamic UI with Livewire for seamless interactions.
+- **Frontend**: Developed dynamic UI for seamless interactions.
 - **Email Integration**: Added Sendgrid for referral invites and transaction updates, secured with `.env`.
 - **Referrals**: Enhanced QR code sharing for web users.
 - **UX**: Designed responsive layouts for improved engagement.
