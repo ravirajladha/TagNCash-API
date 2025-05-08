@@ -1,0 +1,183 @@
+@media (max-width: 1279px) {
+	.wideget-user-info .wideget-user-warap {
+		margin-top: 2rem !important;
+	}
+}
+@media (max-width: 360px) {
+	.wideget-user-desc {
+		.wideget-user-img {
+			width: 130px;
+			height: 130px;
+		}
+		.user-wrap {
+			margin-top: 0.7rem !important;
+			margin-left: 13px;
+		}
+	}
+	.wideget-user-info .wideget-user-warap .wideget-user-warap-r {
+		margin-left: 5rem !important;
+	}
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+.sr-only-focusable {
+	&:active, &:focus {
+		position: static;
+		width: auto;
+		height: auto;
+		overflow: visible;
+		clip: auto;
+		white-space: normal;
+	}
+}
+.section-nav {
+	background-color: #f8f9fa;
+	margin: 1rem 0;
+	padding: .5rem 1rem;
+	border: 1px solid $border;
+	border-radius: 3px;
+	list-style: none;
+	&:before {
+		content: 'Table of contents:';
+		display: block;
+		font-weight: 600;
+	}
+}
+/*----- Custom control -----*/
+
+* {
+	html .fileinput-button {
+		line-height: 24px;
+		margin: 1px -3px 0 0;
+	}
+	+html .fileinput-button {
+		margin: 1px 0 0;
+		padding: 2px 15px;
+	}
+}
+@media (max-width: 767px) {
+	.files {
+		.btn span {
+			display: none;
+		}
+		.preview * {
+			width: 40px;
+		}
+		.name * {
+			display: inline-block;
+			width: 80px;
+			word-wrap: break-word;
+		}
+		.progress {
+			width: 20px;
+		}
+		.delete {
+			width: 60px;
+		}
+	}
+	.border-right-1 {
+		border-right: 0 !important;
+	}
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.br-100 {
+	border-radius: 100% !important;
+}
+.br-7 {
+	border-radius: 7px;
+}
+.br-tl-7 {
+	border-top-left-radius: 7px !important;
+}
+.br-bl-7 {
+	border-bottom-left-radius: 7px !important;
+}
+.br-tr-7 {
+	border-top-right-radius: 7px !important;
+}
+.br-br-7 {
+	border-bottom-right-radius: 7px !important;
+}
+.br-tl-0 {
+	border-top-left-radius: 0px !important;
+}
+.br-bl-0 {
+	border-bottom-left-radius: 0px !important;
+}
+.br-tr-0 {
+	border-top-right-radius: 0px !important;
+}
+.br-br-0 {
+	border-bottom-right-radius: 0px !important;
+}
+#popup {
+	position: absolute;
+	width: auto;
+	height: 30px;
+	background: #fe6b1f;
+	display: none;
+	color: white;
+	border-radius: 5px;
+}
+#copy {
+	background: none;
+	color: white;
+	font-weight: bold;
+	padding: 8px 25px;
+	border: 0;
+}
+/*------ Charts styles ------*/
+
+.chart-visitors {
+	min-height: 18rem;
+	overflow: hidden;
+}
+.chart-tasks {
+	height: 15rem;
+	overflow: hidden;
+}
+.chart-donut {
+	height: 22rem;
+	overflow: hidden;
+}
+.chart-pie {
+	height: 21rem;
+	overflow: hidden;
+}
+.chartsh {
+	height: 16rem;
+	overflow: hidden;
+}
+.chartwidget {
+	height: 17rem;
+	overflow: hidden;
+}
+.chartheight {
+	height: 12rem;
+	overflow: hidden;
+}
+.widget-info {
+	i {
+		width: 100px;
+		height: 100px;
+		padding: 27px 0;
+		text-align: center;
+		border: 2px solid $white;
+		border-radius: 50%;
+	}
+	a {
+		border-bottom: 1px solid $white;
+	}
+}

@@ -1,0 +1,1 @@
+[29-Mar-2024 07:06:31 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home4/kodstecu/tagncash2.kods.app/tagncash/app/Http/Controllers/Api/Vendor/VendorController.php on line 3

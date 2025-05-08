@@ -1,0 +1,67 @@
+/*Color variables*/
+/*white variables*/
+/*black variables*/
+/*Color variables*/
+@media (min-width: 1025px) {
+    .page {
+        max-width: 1170px;
+        margin: 0 auto;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: center;
+        justify-content: center;
+        min-height: 100vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 0px 0px, rgba(0, 0, 0, 0.3) 0px 5px 25px 0px;
+    }
+
+    body {
+        background: #f2f3f9 !important;
+    }
+
+    .sticky-pin .horizontal-main {
+        max-width: 1170px;
+    }
+
+    .app-header {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .vh {
+        height: 100vh;
+    }
+
+    .app-sidebar {
+        right: auto !important;
+    }
+
+    .second-sidemenu {
+        right: auto !important;
+        margin-right: 125px;
+    }
+
+    .side-header {
+        left: auto !important;
+        right: auto !important;
+        z-index: 1044;
+    }
+
+    .horizontalMenu>.horizontalMenu-list>li>a {
+        padding: 1rem 1.4rem 1rem !important;
+    }
+
+    .header .form-inline .form-control {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 992px) {
+    .horizontalMenu>.horizontalMenu-list>li>a {
+        padding: 1rem 0.7rem 1rem !important;
+    }
+}
+
+/*# sourceMappingURL=boxed.css.map */

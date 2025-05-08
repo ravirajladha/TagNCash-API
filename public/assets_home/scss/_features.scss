@@ -1,0 +1,45 @@
+// 
+// features.scss
+//
+
+.solution {
+  transition: all0 0.5s ease-in-out;
+  .sol-icon {
+      color: rgba($dark,0.11);
+  }
+  &:hover,
+  &.active {
+      box-shadow: 0px 0px 12px 8px rgba($gray-800, 0.05) !important;
+      .sol-icon {
+          color: $primary;          
+      }
+  }
+}
+
+// feature-slider
+
+.tns-outer {
+  position: relative;
+  .tns-nav {
+      text-align: center;
+      margin-top: 25px;
+      button {
+          width: 14px !important;
+          height: 5px !important;
+          border: none;
+          background-color: rgba($primary, 0.2) !important;
+          padding: 0px;
+          margin: 0px 4px ;
+          transition: all 0.3s;
+          border-radius: 30px;
+          &:focus, &:hover, &:active, &.active {
+              outline: none;
+              background-color: $primary !important;
+          }
+          &.tns-nav-active {
+              background-color: $primary !important;
+              width: 22px !important;
+          }
+      } 
+  }    
+}

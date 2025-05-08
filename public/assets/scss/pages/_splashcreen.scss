@@ -1,0 +1,161 @@
+.brand-title{
+    font-size: 2.25rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+.dz-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+.loader-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.main-screen{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: $d-bg;
+    z-index: 999999;
+    .circle-1{
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+        background: #fff;
+        position: absolute;
+        top: 80px;
+        left: -55px;
+        overflow: hidden;
+        animation: move4 5s infinite;
+    }
+    .circle-2{
+        width: 436px;
+        height: 436px;
+        border-radius: 50%;
+        background: #263965;
+        position: absolute;
+        z-index: -1;
+        top: -170px;
+        right: -225px;
+        animation: move1 5s infinite;
+    }
+    .circle-3{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #263965;
+        position: absolute;
+        top: 240px;
+        left: 80px;
+        animation: move3 5s infinite;
+    }
+    .circle-4{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: #334878;
+        position: absolute;
+        bottom: 60px;
+        left: -40px;
+        animation: move1 5s infinite;
+    }
+    .circle-5{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #334878;
+        position: absolute;
+        bottom: 210px;
+        left: 20px;
+        animation: move3 5s infinite;
+    }
+    .circle-6{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #334878;
+        position: absolute;
+        bottom: 215px;
+        right: 55px;
+        animation: move3 5s infinite;
+    }
+    .circle-7{
+        width: 241px;
+        height: 241px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 20px;
+        right: -120px;
+        overflow: hidden;
+        animation: move2 5s infinite;
+    }
+    .brand-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .logo{
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            line-height: 90px;
+            margin: 0 auto;
+            background-color: var(--primary);
+            border-radius: var(--border-radius-base);
+            overflow: hidden; 
+            .brand-title{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@keyframes move1{
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+@keyframes move2{
+    0% {
+        transform: translateY(-10px) rotate(0);
+    }
+    50% {
+        transform: translateY(-30px) rotate(10deg);
+    }
+    100% {
+        transform: translateY(-10px) rotate(0);
+    }
+}
+@keyframes move3{
+    0% {
+        transform: translate(30px);
+    }
+    50% {
+        transform: translate(10px);
+    }
+    100% {
+        transform: translate(30px);
+    }
+}
+@keyframes move4{
+    0% {
+        transform: translateY(-10px) rotate(0);
+    }
+    50% {
+        transform: translateY(-30px) rotate(-10deg);
+    }
+    100% {
+        transform: translateY(-10px) rotate(0);
+    }
+}

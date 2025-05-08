@@ -1,0 +1,141 @@
+//Action Sheets
+.offcanvas{
+    background-color: var(--bg-white);
+    &.offcanvas-bottom{
+        border-radius: 0.625rem 0.625rem 0 0;
+        height: unset;
+        border-top: 0;
+		.btn-close{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: var(--bg-white);
+			opacity: 1;
+			text-align: center;
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			line-height: 25px;
+			z-index: 999;
+			border-radius: var(--border-radius-base);
+			box-shadow: 0 2px 13px -2px #edbebe;
+		}
+    }
+    &.offcanvas-top{
+        border-radius: 0 0 10px 10px;
+        height: unset;
+        border-bottom: 0;
+        bottom: auto;
+    }
+	&.offcanvas-end{
+		width: 300px;
+		.btn-close{
+			position: absolute;
+			z-index: 999;
+			top: 10px;
+			right: 10px;
+			background: var(--bg-white);
+			opacity: 1;
+			text-align: center;
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			line-height: 25px;
+			border-radius: var(--border-radius-base);
+			box-shadow: 0 2px 13px -2px #edbebe;
+		}	
+	}
+    .offcanvas-header{
+        padding: 1rem 0;
+        margin: 0 0.875rem !important;
+        border-bottom: 1px solid var(--border-color);
+        margin: 0;
+        .offcanvas-title{
+            line-height: 1.2;
+        }
+        .btn-close{
+			background: none;
+			padding: 0;
+			margin: 0;
+			font-size: 18px;
+			opacity: 0.3;
+			line-height: 1;
+        }
+    }
+    
+    .offcanvas-backdrop{
+        &.show{
+            opacity: 0.3 !important;
+        }
+    }
+	.offcanvas-body{
+		max-height: 100vh;
+		&.fixed{
+			border-radius: 0;
+			margin-bottom: 200px;
+			.view-title{
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				background-color: var(--bg-white);
+				z-index: 999;
+				width: 100%;
+				padding: 0;
+			}
+		}
+	}
+}
+.highlight-text{
+    color: var(--primary);
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.scale-box{
+    position: relative;
+    animation: scale-box 2s infinite;
+}
+@keyframes scale-box {
+  0%   {transform: scale(1);}
+  50%  {transform: scale(0.7);}
+  100% {transform: scale(1);}
+}
+
+
+//Action Modal
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate(0, 50px);
+}
+.modal.fade.show .modal-dialog {
+    transform: none;
+}
+.modal.fade.show.modal-static .modal-dialog {
+    transform: scale(1.02);
+}
+.modal{
+    .modal-dialog{
+        .modal-content{
+            border-radius: 0.625rem;
+            .modal-header{
+                padding: 1rem;
+                border-bottom: 1px solid var(--border-color);
+                margin: 0;
+                .modal-title{
+                    line-height: 1.2;    
+                }
+            }
+        }    
+    }
+}
+.btn-close{
+    /* background: #dc3545;
+    padding: 3px;
+    opacity: 1;
+    margin: 0; */
+}
+.top-right{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}

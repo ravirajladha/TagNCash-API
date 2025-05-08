@@ -1,0 +1,22 @@
+// 
+// ourpricing.scss
+// 
+.price-box {
+  .price-title {
+      font-size: 36px;
+  }
+}
+
+.pri-text {
+    &:after {
+      content: "";
+      background-color: lighten($dark, 68%);
+      position: absolute;
+      top: 46px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150px;
+      height: 1px;
+      border-radius: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+/*--------panel----------*/
+
+.expanel-default {
+	border: #ddd !important;
+}
+.expanel-success {
+	border: #4ecc48 !important;
+}
+.expanel-danger {
+	border: #c21a1a !important;
+}
+.expanel-success>.expanel-heading {
+	color: $white !important;
+	background-color: #4ecc48 !important;
+	border-color: #4ecc48 !important;
+}
+.expanel-danger>.expanel-heading {
+	color: $white !important;
+	background-color: #c21a1a !important;
+	border-color: #c21a1a !important;
+}
+.expanel-warning>.expanel-heading {
+	color: $white !important;
+	background-color: #ecd938 !important;
+	border-color: #ecd938 !important;
+}
+.expanel-title {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	font-size: 16px !important;
+	color: inherit !important;
+}
+.expanel {
+	margin-bottom: 20px !important;
+	background-color: $white !important;
+	border: 1px solid $border !important;
+	border-radius: 4px !important;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01) !important;
+}
+.expanel-default>.expanel-heading {
+	background-color: #f4f3f9 !important;
+	border-color: #f4f3f9 !important;
+}
+.expanel-heading {
+	padding: 10px 15px !important;
+	border-bottom: 1px solid $border;
+	border-top-left-radius: 3px !important;
+	border-top-right-radius: 3px !important;
+}
+.expanel-footer {
+	padding: 10px 15px !important;
+	background-color: #f4f3f9 !important;
+	border-top: 1px solid $border !important;
+	border-bottom-right-radius: 3px !important;
+	border-bottom-left-radius: 3px !important;
+}
+.expanel-body {
+	padding: 15px !important;
+}

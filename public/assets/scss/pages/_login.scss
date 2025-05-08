@@ -1,0 +1,70 @@
+.account-box{
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -8px 20px -7px rgba(179, 179, 179, 0.21);
+    background-color: var(--bg-white);
+    position: relative;
+    z-index: 2;
+}
+
+.account-area{
+    min-height: calc(100vh - 190px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding-top: 10px;
+	
+	form{
+        display: flex;
+        flex-direction: column;
+        
+		.saprate{
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.social-btn-group{
+	margin-top: 10px;
+    margin-bottom: auto;
+    white-space: nowrap;
+    .social-btn{
+        width: 149px;
+        min-width: 149px;
+        height: 48px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid var(--border-color);
+        line-height: 44px;
+        border-radius: 50px;
+        display: inline-block;
+        img{
+            width: 28px;
+            height: 28px;
+        }
+    }    
+}
+.saprate{
+	display: inline-block;
+	font-size: 1rem;
+	padding: 0 70px;
+}
+
+.input-group > .form-control:focus, .input-group > .form-select:focus{
+    z-index: unset;
+}
+.digit-group {
+    display: flex;
+    flex-direction: initial;
+	input {
+        margin: 0 4px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: var(--dark);
+	}
+}

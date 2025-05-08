@@ -1,0 +1,52 @@
+// 
+// footer.scss
+// 
+.footer {
+    color:$dark;
+    padding: 80px 0px 50px;
+    .footer-list {
+        li {
+            a {
+                color: $muted;
+            }
+            &:hover {
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .map {
+        .map-btn {
+            z-index: 1;
+        }
+        transition: all 0.3s ease-in-out;
+       .bg-overlay, .map-btn {
+           display: block;
+       }
+       &:hover {
+           .bg-overlay, .map-btn {
+               display: none;
+           }
+       }
+    }
+}
+
+.footer-alt {
+    border-top: 1px solid rgba($white, 0.08);
+    padding: 20px 0px;
+    color: rgba($white, 0.4);
+    .footer-alt-list {
+        li {
+            a {
+                color: rgba($white, 0.4);
+                margin-right: 15px;
+            }
+            &:hover {
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

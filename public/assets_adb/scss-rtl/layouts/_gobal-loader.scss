@@ -1,0 +1,24 @@
+/*----- Global Loader -----*/
+
+#global-loader {
+    position:fixed;
+    z-index:50000;
+    background:rgb(255, 255, 255);
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+	height:100%;
+	width:100%;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+.loader-img{
+	position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 45%;
+    margin: 0 auto;
+}
