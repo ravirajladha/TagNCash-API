@@ -12,26 +12,16 @@ Below are snapshots of TagNCash-Web’s key features:
 ![User Dashboard](images/admin.png)
 *Track referrals, rewards, and transaction history.*
 
-![Mobile Application Screenshots](images/mobile.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
 
-![Mobile Application Screenshots](images/mobile1.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
-
-![Mobile Application Screenshots](images/mobile2.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
-
-![Mobile Application Screenshots](images/mobile3.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
-
-![Mobile Application Screenshots](images/mobile4.png)
-<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
-<!--  -->
-![Mobile Application Screenshots](images/mobile5.png)
-<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
-
-![Mobile Application Screenshots](images/mobile6.png)
-<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="images/mobile.png" alt="Store Browsing" width="200" />
+  <img src="images/mobile1.png" alt="QR Code Scanning" width="200" />
+  <img src="images/mobile2.png" alt="Wallet" width="200" />
+  <img src="images/mobile3.png" alt="Referral Sharing" width="200" />
+  <img src="images/mobile4.png" alt="Transaction History" width="200" />
+  <img src="images/mobile5.png" alt="Login Screen" width="200" />
+  <img src="images/mobile6.png" alt="Store Details" width="200" />
+</div>
 
 ## Features
 - **Referral System**: Share QR codes via web interface to refer friends, earning rewards.
