@@ -25,13 +25,13 @@ Below are snapshots of TagNCash-Web’s key features:
 *Browse partnered businesses for shopping and dining using mobile app.*
 
 ![Mobile Application Screenshots](images/mobile4.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
-
+<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
+<!--  -->
 ![Mobile Application Screenshots](images/mobile5.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
+<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
 
 ![Mobile Application Screenshots](images/mobile6.png)
-*Browse partnered businesses for shopping and dining using mobile app.*
+<!-- *Browse partnered businesses for shopping and dining using mobile app.* -->
 
 ## Features
 - **Referral System**: Share QR codes via web interface to refer friends, earning rewards.
